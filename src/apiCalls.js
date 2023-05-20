@@ -1,5 +1,6 @@
 import axios from "axios"
 
+export const BASE_URL = "https://anik-social-app.onrender.com";
 
 export const loginCall = async(userCredentials, dispatch) => {
     dispatch({type: "LOGIN_START"});
